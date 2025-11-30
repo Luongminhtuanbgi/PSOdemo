@@ -129,8 +129,8 @@ int main() {
 
     // 3. Kết quả cuối cùng
     printf("\n--- KET QUA PSO ---\n");
-    printf("Vi tri toi uu tim duoc (x, y): [%.10f, %.10f]\n", gBest_pos[0], gBest_pos[1]);
-    printf("Gia tri nho nhat f(x,y): %.15f\n", gBest_val);
+    printf("Vi tri toi uu tim duoc (x, y): [%.2f, %.2f]\n", gBest_pos[0], gBest_pos[1]);
+    printf("Gia tri nho nhat f(x,y): %.2f\n", gBest_val);
 
     return 0;
 }
