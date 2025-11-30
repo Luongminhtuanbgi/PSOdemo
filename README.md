@@ -1,7 +1,9 @@
 # Mô phỏng thuật toán PSO và các biến thể
 
 **Họ và tên:** Lương Minh Tuấn
-**Mã sinh viên:**20215158
+
+**Mã sinh viên:** 20215158
+
 **Môn học:** Nhập môn Kĩ thuật truyền thông
 
 ## 1. Giới thiệu
