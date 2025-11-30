@@ -79,7 +79,7 @@ int main() {
     // 2. VÒNG LẶP CHÍNH (MAIN LOOP)
     for (int iter = 0; iter < MAX_ITER; iter++) {
         
-        // [QUAN TRỌNG] Tính trọng số quán tính W giảm tuyến tính theo thời gian
+        // Tính trọng số quán tính W giảm tuyến tính theo thời gian
         // Tại iter=0, w = 0.9. Tại iter=100, w = 0.4.
         double w_current = W_MAX - ((W_MAX - W_MIN) * iter / MAX_ITER);
 
@@ -134,3 +134,4 @@ int main() {
 
     return 0;
 }
+
